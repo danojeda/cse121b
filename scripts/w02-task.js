@@ -7,7 +7,8 @@
 let fullName= "Daniel Ojeda";
 /*const hoy = Date.now();
 let currentYear = hoy.getFullYear();*/
-let currentYear = 2024;
+//let currentYear = 2024;
+currentYear = new Date().getFullYear();
 let profilePicture = 'images/my_picture.jpg';
 
 
