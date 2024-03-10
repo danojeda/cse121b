@@ -28,10 +28,9 @@ nameElement.innerHtml = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
 imageElement.setAttribute('src', profilePicture);
 imageElement.setAttribute('alt', `Profile image of ${nameElement.innerHtml}`);
-// imageElement.setAttribute('alt', `Es lo que es`);
 
 /* Step 5 - Array */
-// Declare an array variable to hold your favorite foods
+
 
 let myArray = ['Pastel de Choclo','Empanada','icecream','Barbacue'];
 let newFood = 'hot-dog';
