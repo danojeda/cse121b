@@ -32,7 +32,7 @@ imageElement.setAttribute('alt', `Profile image of ${nameElement.innerHtml}`);
 /* Step 5 - Array */
 
 
-let myArray = ['Pastel de Choclo','Empanada','icecream','Barbacue'];
+let myArray = ['Pastel de Choclo','Empanada','icecream','Asado'];
 let newFood = 'hot-dog';
 myArray.push(newFood);
 foodElement.innerHTML +=`<br>${myArray}`;
