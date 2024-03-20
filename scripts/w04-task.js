@@ -4,8 +4,8 @@
 let  myProfile ={
     name:"Daniel Ojeda",
     photo: 'images/my_picture.jpg',
-    favoriteFoods: ['Pastel de Choclo','Empanada','icecream','Asado'],
-    hobbies: ['sleeping', 'reading', 'learning piano'],
+    favoriteFoods: ['Pastel de Choclo','Empanada','Icecream','Asado'],
+    hobbies: ['sleeping', 'reading', 'thinking about learning piano'],
     placesLived: []
 };
 
