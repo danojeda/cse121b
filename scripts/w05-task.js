@@ -17,7 +17,7 @@ const displayTemples = (temples) => {
         let myArticle = document.createElement('article');
 
         let myH3 = document.createElement('h3');
-        let textNode = document.createTextNode(temple.templeName);
+        let textNode = document.createTextNode(temple.templeName + ' Temple');
         myH3.appendChild(textNode);
 
 
