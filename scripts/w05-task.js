@@ -1,4 +1,5 @@
 /* W05: Programming Tasks */
+/**Student Name. Daniel Ojeda */
 
 /* Declare and initialize global variables */
 
