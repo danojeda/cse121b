@@ -1,0 +1,29 @@
+[
+    {
+    "Q1":"Which one of this women is NOT mentioned by name in the Book Of Mormon?",
+    "A":"Rachel",
+    "B":"Mary",
+    "C":"Abish",
+    "D":"Sariah",
+    "Correct":"Rachel"
+    },
+    
+    {
+    "Q1":"Which one if this men was never a Chief Judge of the nephites?",
+    "A":"Alma the younger",
+    "B":"Pahoran",
+    "C":"Alma the elder",
+    "D":"Pacumeni",
+    "Correct":"Alma de elder"
+    },
+    
+    {
+    "Q1":"How many years old was Captain Moroni when he took charge of the nephites armies?",
+    "A":"Almost 40",
+    "B":"25 years",
+    "C":"17 years",
+    "D":"We don't know, but he was very young",
+    "Correct":"25 years"
+    }
+    
+]
