@@ -21,12 +21,18 @@
         "Q":"Which one of this men married Ishmael's eldest daugther?",	
         "alternatives":["Sam","Lemuel","Zoram","Nephi"],
         "correct":"Zoram"
-       },
+    },
        
-       {
+    {
         "Q": "Which one of this men never had a son called Nephi?",	
-        "alternative":["Lehi","Mormon","Helaman, son of Helaman","Nephi, son of Helaman"],
+        "alternatives":["Lehi","Mormon","Helaman, son of Helaman","Nephi, son of Helaman"],
         "correct":"Mormon"
-       }
+    },
+
+    {
+        "Q":"In which book is the longest chapter in the entire Book of Mormon?",	
+        "alternatives":["Jacob","Alma","3rd Nephi","2nd Nephi"],
+        "correct":"Jacob"
+    }
     
 ]
