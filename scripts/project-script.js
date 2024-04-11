@@ -55,8 +55,7 @@ let displayQuestions = (questions) =>{
         myLabel4.textContent= questions[i].alternatives[3];
 
         
-        console.log(myQ.textNode);
-
+        
         let myBR = document.createElement('br');
         let myBR2 = document.createElement('br');
         let myBR3 = document.createElement('br');
@@ -66,7 +65,8 @@ let displayQuestions = (questions) =>{
         let myBR7 = document.createElement('br');
 
         let myButton = document.createElement("button");
-        myButton.innerText="Submit";
+        myButton.innerText=`Submit`;
+        
         
 
         questionsElement.appendChild(myLabelZero);
@@ -87,6 +87,23 @@ let displayQuestions = (questions) =>{
         questionsElement.appendChild(myButton);
         questionsElement.appendChild(myBR6);
 
+        myButton.addEventListener("click",function () {calculateFunction(this)});
+
+        function calculateFunction  () {
+    
+            if (myOption1.checked){
+                
+                alert(`You have selected the first option`);
+            }else if (myOption2.checked){
+                alert(`You have selected the second option`);
+            }else if (myOption3.checked){
+                alert(`You have selected the third option`);
+            }else if (myOption4.checked){
+                alert(`You have selected the fourth option`);
+            }
+           
+             
+        }
               
 
     }
@@ -94,11 +111,26 @@ let displayQuestions = (questions) =>{
 
 
 
+function calculateFunction  () {
+    
+    if (myOption1.checked){
+        
+        alert(`You have selected the first option`);
+    }else if (myOption2.checked){
+        alert(`You have selected the second option`);
+    }else if (myOption3.checked){
+        alert(`You have selected the third option`);
+    }else if (myOption4.checked){
+        alert(`You have selected the fourth option`);
+    }
+   
+     
+}
 
 
 const getQuestions = async () =>{
     
-    console.log("Bienvenido a la funcion getQuestions");
+   
     const response = await fetch ("https://danojeda.github.io/cse121b/questionsandanswers.json");
     if (response.ok){
         const data = await response.json();
@@ -110,19 +142,7 @@ const getQuestions = async () =>{
 }
 
 
-const calculateFunction = () =>{
-    
-    var answer = document.getElementsByName('option-q');
-
-    
-    
-    
-   
-    
-    
-}
 
 
 
 getQuestions();
-
