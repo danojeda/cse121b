@@ -15,6 +15,11 @@
     "Q":"How many years old was Captain Moroni when he took charge of the nephites armies?",
     "alternatives":["Almost 40","25 years","17 years","We don't know, but he was very young"],
 	"correct":"25 years"
+    },
+    {
+        "Q":"Which one of this men married Ishmael's eldest daugther?",	
+        "alternatives":["Sam","Lemuel","Zoram","Nephi"],
+        "correct":"Zoram"
     }
 
     
